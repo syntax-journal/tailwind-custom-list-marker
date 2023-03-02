@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom List Marker Using Tailwind</title>
+    <link rel="stylesheet" href="./assets/dist-style.css">
+  </head>
+  <body>
+    <main class="max-w-screen-lg mx-auto px-4">
+        <h1 class="font-bold text-3xl">Custom List Markers</h1>  
+        <ol class="ml-4">
+            <li class=" my-6
+                before:content-['1'] before:text-purple-400 before:text-2xl before:ring-2 before:ring-offset-2 before:ring-purple-500
+                before:px-3 before:py-1 before:rounded-full
+                before:mr-4
+            ">
+                First item
+            </li>
+            <li class=" my-6
+                before:content-['2'] before:text-purple-400 before:text-2xl before:ring-2 before:ring-offset-2 before:ring-purple-500
+                before:px-3 before:py-1 before:rounded-full
+                before:mr-4
+            ">      
+                Second item
+            </li>
+        </ol>
+    </main>
+  </body>
+</html>
